@@ -1,0 +1,9 @@
+## .NET
+[Bb]in/
+[Oo]bj/
+*.nupkg
+
+# fsharp-wasm-sci
+/dist/
+/node_modules/
+*.wat
