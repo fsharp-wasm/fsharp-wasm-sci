@@ -33,7 +33,7 @@ Libraries, in this order, each only when the layer below it is real and measured
 3. **Chemistry** (`FSharp.Sci.Chem`): a periodic table as compile-time constants, molecular graphs, a SMILES parser, masses and formulas.
 4. **Quantum** (`FSharp.Sci.Quantum`): a complex number without allocation, a state-vector simulator, the usual gates.
 
-Where a workload is too large for F# in a browser, an optional Rust library behind a WIT interface is planned (the same Rust is not written twice); the F# version stays the default, because it is small.
+Where a workload is too large for F# in a browser, an optional kernel library (Rust) is possible (the same Rust is not written twice); the F# version stays the default, because it is small. **How data crosses that boundary is not decided**: WIT copies, and the better design for numbers may be handles to buffers with WIT only for the list of operations; [docs/plan.md](docs/plan.md) says what is known, and the measurement that decides it.
 
 ## Principles
 
